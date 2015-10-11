@@ -1,0 +1,6 @@
+1. Auto conversion from postal code to LatLng coordinates.
+2. A clustering circle to cluster groups of locations close to one another.
+3. Clustering circle showing the number of groups in the center or an indication of the number of patients based on colour scale. The center of the cirlce is the mean coordinates of all the points in the region.
+4. The area covered by the cluster circle increases as use zoom out of map. e.g. when zoomed in to AMK ave 1, it shows the number of patients around AMK ave 1. zooming out, it shows number of patients around AMK now. Zooming out furthur, it shows the number of patients in Singapore.
+5. residence of nurse denoted by another pin (if ambitious, they are represented by nurses icon).
+6. The number of patients shown based on the time from the next appointment.

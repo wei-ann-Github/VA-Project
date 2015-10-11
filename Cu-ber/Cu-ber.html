@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+    <link rel="stylesheet" href="css/Cu-ber.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <title>Cu-ber</title>
+  </head>
+  <body>
+    <!-- load the d3.js library -->
+    <script type="text/javascript" src="lib/d3/d3.js"></script>
+    
+    <h1>This page is for trying out out leaflet 
+    application for visualization project</h1>
+    
+    <!--- Place the map here. --->
+    <div class = "row">
+      <div class = "col-md-6" id = "helloMap"></div>
+      <div class = "col-md-3 info" style="border: 1px solid black" align = "center" id = "detailsPanel">
+        display the details here
+      </div>
+      <div border = "black" class = "col-md-3 info" style="border: 1px solid black;" align = "center" id = "chartPanel">
+        display any charts here
+      </div>
+    </div>
+    
+    <!-- Radius Adjustment -->
+    <div class = "row">
+      <div class = "col-md-6"  style="border: 1px solid black" align = "center">
+        Radius Adjustments here.
+      </div>
+    </div>
+    
+    <!-- Search box and buttons here -->
+    <div class = "row">
+      <div class = "col-md-6" style="border: 1px solid black" align = "center">
+        Search Box Here
+      </div>
+      <div class = "col-md-2" style="border: 1px solid black" align = "center">
+        West Button
+      </div>
+      <div class = "col-md-2" style="border: 1px solid black" align = "center">
+        Central Button
+      </div>
+      <div class = "col-md-2" style="border: 1px solid black" align = "center">
+        East Button  
+      </div>
+    </div>
+        
+    <script src = "js/Cu-ber.js"></script>
+  </body>
+</html>
